@@ -1,0 +1,14 @@
+# 运行时与下载物（体积以 GB 计，不入库）
+runtime/
+downloads/
+*.zip
+
+# Swift 构建产物
+.build/
+.swiftpm/
+
+# 打包输出（含编译好的 .app 与 .dmg）
+dist/
+
+# macOS
+.DS_Store
